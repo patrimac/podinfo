@@ -20,7 +20,7 @@ spec:
   interval: 30m0s
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: podinfo
   update:
     path: ./clusters/minikube
     strategy: Setters
