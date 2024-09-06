@@ -16,7 +16,7 @@ spec:
       messageTemplate: 'Update image {{range .Changed.Changes}}{{print .OldValue}} to {{println
         .NewValue}}{{end}}'
     push:
-      branch: main
+      branch: master
   interval: 30m0s
   sourceRef:
     kind: GitRepository
